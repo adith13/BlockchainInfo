@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background color and font styles */
+body {
+    margin-top: 8%;
+    background-color: #f6e6d2;
+    /* Cream background color */
+    font-family: 'Lora', serif;
+    /* Choose an appropriate font-family */
+}
+
+/* Center align the container */
+.container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Style the heading with vintage blue color */
+.heading {
+    color: #1a32ac;
+    /* Vintage blue text color */
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+/* Style the image */
+.blockchain-image {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    margin: 25px;
+}
+
+/* Style the description text */
+.blockchain-description {
+    color: #1a32ac;
+    /* Vintage blue text color */
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 20px 0;
+}
